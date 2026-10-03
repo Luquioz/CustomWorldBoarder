@@ -1,0 +1,30 @@
+name: CustomWorldBoarder
+version: '1.0.0'
+main: fr.luquioz.customworldboarder.CustomWorldBoarder
+api-version: '1.21'
+author: Lucas
+description: Plugin pour gérer plusieurs worldborders personnalisés pour les événements
+
+commands:
+  cwb:
+    description: Commande principale pour gérer les worldborders multiples
+    usage: /cwb <create|delete|list|activate|deactivate|info|setcenter|setsize|setwarning> [arguments...]
+    aliases: [customworldborder, cborder]
+    permission: customworldborder.use
+    permission-message: Vous n'avez pas la permission d'utiliser cette commande.
+
+permissions:
+  customworldborder.use:
+    description: Permet d'utiliser les commandes de base
+    default: op
+  customworldborder.admin:
+    description: Permet de créer, supprimer et modifier les worldborders
+    default: op
+    children:
+      - customworldborder.use
+  customworldborder.*:
+    description: Toutes les permissions
+    default: op
+    children:
+      - customworldborder.use
+      - customworldborder.admin

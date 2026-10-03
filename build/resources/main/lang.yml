@@ -1,0 +1,138 @@
+# Fichier de langue CustomWorldBoarder - Français
+
+# Messages généraux
+no-permission: "&cVous n'avez pas la permission de faire cela."
+player-only: "&cCette commande ne peut être utilisée que par un joueur."
+command-error: "&cUne erreur s'est produite lors de l'exécution de la commande."
+unknown-command: "&cSous-commande inconnue: {command}"
+
+# Commandes
+usage-create: "&cUsage: /cwb create <nom> <taille>"
+usage-createsel: "&cUsage: /cwb createsel <nom> <taille>"
+usage-delete: "&cUsage: /cwb delete <nom>"
+usage-activate: "&cUsage: /cwb activate <nom>"
+usage-deactivate: "&cUsage: /cwb deactivate <nom>"
+usage-info: "&cUsage: /cwb info <nom>"
+usage-setcenter: "&cUsage: /cwb setcenter <nom>"
+usage-setsize: "&cUsage: /cwb setsize <nom> <taille>"
+usage-setwarning: "&cUsage: /cwb setwarning <nom> <distance>"
+usage-setwarncolor: "&cUsage: /cwb setwarncolor <nom> <r,g,b>"
+usage-setvisualcolor: "&cUsage: /cwb setvisualcolor <nom> <r,g,b>"
+usage-reduce: "&cUsage: /cwb reduce <nom> <taille> <ticks>"
+usage-setdamage: "&cUsage: /cwb setdamage <nom> <degats>"
+usage-setdamagerange: "&cUsage: /cwb setdamagerange <nom> <distance>"
+usage-bypass: "&cUsage: /cwb bypass <bordure> <joueur> <on|off>"
+usage-setwarningtitle: "&cUsage: /cwb setwarningtitle <nom> <texte>"
+usage-setwarningsubtitle: "&cUsage: /cwb setwarningsubtitle <nom> <texte>"
+usage-setdamagetitle: "&cUsage: /cwb setdamagetitle <nom> <texte>"
+usage-setdamagesubtitle: "&cUsage: /cwb setdamagesubtitle <nom> <texte>"
+usage-setkicktitle: "&cUsage: /cwb setkicktitle <nom> <texte>"
+usage-setkicksubtitle: "&cUsage: /cwb setkicksubtitle <nom> <texte>"
+usage-setparticles: "&cUsage: /cwb setparticles <nom> <true|false>"
+usage-setsounds: "&cUsage: /cwb setsounds <nom> <true|false>"
+usage-setvisualparticles: "&cUsage: /cwb setvisualparticles <nom> <true|false>"
+
+# Validation
+number-error: "&cLa valeur doit être un nombre."
+boolean-error: "&cLa valeur doit être 'true' ou 'false'."
+rgb-error: "&cLa couleur doit être au format R,G,B (ex: 255,0,0)."
+state-error: "&cL'état doit être 'on' ou 'off'."
+positive-error: "&cLa valeur doit être supérieure à 0."
+non-negative-error: "&cLa valeur doit être supérieure ou égale à 0."
+
+# Création
+border-exists: "&cUne bordure avec le nom '{name}' existe déjà."
+border-created: "&aBordure '{name}' créée avec succès !"
+border-center: "&7Centre: {x}, {z}"
+border-size: "&7Taille: {size} blocs"
+
+# Suppression
+border-not-found: "&cAucune bordure trouvée avec le nom '{name}'."
+border-deleted: "&aBordure '{name}' supprimée avec succès !"
+
+# Activation/Désactivation
+border-activated: "&aBordure '{name}' activée !"
+border-deactivated: "&aBordure '{name}' désactivée !"
+
+# Info
+info-header: "&6=== Info: {name} ==="
+info-world: "&7Monde: {world}"
+info-center: "&7Centre: {x}, {z}"
+info-size: "&7Taille: {size} blocs"
+info-warning-distance: "&7Distance d'avertissement: {distance} blocs"
+info-damage-per-tick: "&7Dégâts par tick: {damage}"
+info-damage-range: "&7Distance de dégâts: {range} blocs après la limite"
+info-warning-color: "&7Couleur d'avertissement: {color}"
+info-visual-color: "&7Couleur visuelle: {color}"
+info-status: "&7Statut: {status}"
+info-status-active: "&aActif"
+info-status-inactive: "&cInactif"
+
+# Centre
+center-updated: "&aCentre de la bordure '{name}' mis à jour !"
+new-center: "&7Nouveau centre: {x}, {z}"
+
+# Taille
+size-updated: "&aTaille de la bordure '{name}' mise à jour !"
+new-size: "&7Nouvelle taille: {size} blocs"
+
+# Warning
+warning-updated: "&aDistance d'avertissement de la bordure '{name}' mise à jour !"
+new-warning-distance: "&7Nouvelle distance: {distance} blocs"
+
+# Couleurs
+warning-color-updated: "&aCouleur d'avertissement de la bordure '{name}' mise à jour !"
+new-warning-color: "&7Nouvelle couleur: {color}"
+visual-color-updated: "&aCouleur visuelle de la bordure '{name}' mise à jour !"
+new-visual-color: "&7Nouvelle couleur: {color}"
+
+# Réduction
+reduce-started: "&aBordure '{name}' va être réduite de {from} à {to} blocs en {ticks} secondes !"
+
+# Dégâts
+damage-updated: "&aDégâts de la bordure '{name}' mis à jour !"
+new-damage: "&7Nouveaux dégâts: {damage} par tick"
+damage-range-updated: "&aDistance de dégâts de la bordure '{name}' mise à jour !"
+new-damage-range: "&7Nouvelle distance: {range} blocs après la limite"
+
+# Bypass
+bypass-enabled: "&aContournement activé pour {player} sur la bordure '{border}'."
+bypass-disabled: "&aContournement désactivé pour {player} sur la bordure '{border}'."
+player-not-found: "&cJoueur '{player}' introuvable ou hors ligne."
+
+# Titres
+warning-title-updated: "&aTitre d'avertissement mis à jour !"
+warning-subtitle-updated: "&aSous-titre d'avertissement mis à jour !"
+damage-title-updated: "&aTitre de dégâts mis à jour !"
+damage-subtitle-updated: "&aSous-titre de dégâts mis à jour !"
+kick-title-updated: "&aTitre de kick mis à jour !"
+kick-subtitle-updated: "&aSous-titre de kick mis à jour !"
+
+# Particules/Sons
+particles-enabled: "&aParticules d'avertissement: activées"
+particles-disabled: "&aParticules d'avertissement: désactivées"
+sounds-enabled: "&aSons: activés"
+sounds-disabled: "&aSons: désactivés"
+visual-particles-enabled: "&aParticules visuelles: activées"
+visual-particles-disabled: "&aParticules visuelles: désactivées"
+
+# Liste
+no-borders: "&eAucune bordure créée."
+list-header: "&6=== Bordures ==="
+list-item: "&f- {name} ({status}&f)"
+list-active: "&aActif"
+list-inactive: "&cInactif"
+
+# Aide
+help-header: "&6=== CustomWorldBoarder Aide ==="
+help-page: "&6Page {current}/{total}"
+help-next-page: "&ePage suivante: /cwb help {page}"
+help-prev-page: "&ePage précédente: /cwb help {page}"
+help-category: "&e{category}:"
+help-no-commands: "&cAucune commande dans cette catégorie."
+
+# Catégories
+category-general: "Général"
+category-borders: "Gestion des bordures"
+category-configuration: "Configuration"
+category-permissions: "Permissions"

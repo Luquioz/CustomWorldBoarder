@@ -1,0 +1,43 @@
+# Configuration de CustomWorldBoarder
+
+# Titre affiché quand un joueur est renvoyé au centre
+kick-title: "&cRetour !"
+
+# Sous-titre affiché quand un joueur est renvoyé au centre
+kick-subtitle: "&cVous avez été renvoyé au centre !"
+
+# Distance de warning avant la bordure (en blocs)
+warning-distance: 5
+
+# Activer/Désactiver les particules d'avertissement pour les joueurs
+border-particles: true
+
+# Couleur des particules d'avertissement (format RGB, ex: 255,0,0 pour rouge)
+warning-particle-color: "255,85,0"
+
+# Activer/Désactiver les sons à la bordure
+border-sounds: true
+
+# Activer/Désactiver les particules visuelles pour délimiter la bordure (cercle de particules)
+border-visual-particles: true
+
+# Couleur des particules visuelles (format RGB, ex: 0,255,0 pour vert)
+visual-particle-color: "0,255,0"
+
+# Titre affiché quand un joueur entre dans la zone d'avertissement
+warning-title: "&c⚠ Zone !"
+
+# Sous-titre affiché quand un joueur entre dans la zone d'avertissement
+warning-subtitle: "&cVous sortez de la zone !"
+
+# Activer/Désactiver le titre quand un joueur prend des dégâts hors de la bordure
+damage-message: true
+
+# Titre affiché quand un joueur prend des dégâts
+damage-title: "&cDégâts !"
+
+# Sous-titre affiché quand un joueur prend des dégâts
+damage-subtitle: "&cVous perdez des points de vie !"
+
+# Distance par défaut de la zone de dégâts après la limite de la bordure (en blocs)
+default-damage-range: 100
